@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Add New Data</title>
+</head>
+<h2> Add New Data </h2>
+<body>
+	<a href="index.php" class="go-back" src=""><img border="0" title="Go Back View All Data" alt="Go back" src="./image/back.png" width="60" height="50">Go Back</a>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1">
+		<table class="add-data" width="25%" border="0">
+			<tr> 
+				<td>Name:</td>
+				<td><input type="text" name="name" placeholder="Enter Name" required></td>
+			</tr>
+			<tr> 
+				<td>Age:</td>
+				<td><input type="text" name="age" placeholder="Enter Age" required></td>
+			</tr>
+			<tr> 
+				<td>Email:</td>
+				<td><input type="email" name="email" placeholder="Enter Email" required></td>
+			</tr>
+			<tr> 
+				<td></td>
+				<td><input class="add-new" title="Add New Data" type="submit" name="Submit" value="Add New Data" placeholder="Add New Data"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+<style>
+table.add-data {
+    color: #6ea435;
+    font-size: 18px;
+	font-weight:600;
+}
+.add-new {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-top:10px;
+}
+input {
+    padding: 5px;
+    width: 100%;
+}
+.go-back{
+
+
+}
+</style>
+
